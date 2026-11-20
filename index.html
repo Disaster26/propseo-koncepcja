@@ -1,0 +1,650 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Agencja SEO i AI Search Wrocław | PROPSEO - strategiczny ruch dla Twojej marki</title>
+<meta name="description" content="PROPSEO z Wrocławia: pozycjonowanie SEO, widoczność w odpowiedziach AI (AI Search) i kampanie Google Ads dla firm z całej Polski. Plan na 12 miesięcy w umowie, umowa bez kar. Bezpłatna konsultacja.">
+<meta name="robots" content="noindex,nofollow">
+<meta name="theme-color" content="#15171F">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="pl_PL">
+<meta property="og:title" content="PROPSEO - agencja SEO i AI Search z Wrocławia">
+<meta property="og:description" content="SEO, AI Search i kampanie reklamowe prowadzone przez specjalistów z min. 5-letnim doświadczeniem.">
+<meta property="og:image" content="img/biuro-19-1200.webp">
+<link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+<link rel="preload" href="fonts/os-500.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" as="image" href="img/biuro-14-540.webp" imagesrcset="img/biuro-14-540.webp 540w, img/biuro-14-800.webp 800w" imagesizes="(max-width: 899px) 100vw, 34vw" fetchpriority="high">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@graph":[
+{"@type":"ProfessionalService","@id":"https://www.propseo.pl/#firma","name":"PROPSEO sp. z o.o.","alternateName":"PROPSEO","url":"https://www.propseo.pl/","logo":"https://www.propseo.pl/logo.png","image":"https://www.propseo.pl/img/zespol-propseo.webp","telephone":"+48 530 514 642","email":"kontakt@propseo.pl","taxID":"8992911512","address":{"@type":"PostalAddress","streetAddress":"ul. gen. Władysława Sikorskiego 26","addressLocality":"Wrocław","postalCode":"53-659","addressCountry":"PL"},"areaServed":"PL","knowsAbout":["SEO","AI Search","Google Ads","Meta Ads","LinkedIn Ads","optymalizacja konwersji","analityka internetowa"],"description":"Agencja SEO, AI Search i kampanii reklamowych z Wrocławia."},
+{"@type":"WebSite","@id":"https://www.propseo.pl/#strona","url":"https://www.propseo.pl/","name":"PROPSEO","inLanguage":"pl-PL","publisher":{"@id":"https://www.propseo.pl/#firma"}}
+]}
+</script>
+<style>
+@font-face{font-family:"OS";font-weight:400;font-style:normal;font-display:swap;src:url(fonts/os-400.woff2) format("woff2")}
+@font-face{font-family:"OS";font-weight:500;font-style:normal;font-display:swap;src:url(fonts/os-500.woff2) format("woff2")}
+:root{
+  --ink:#15171F;--ink2:#3C3F4C;--mut:#5E6170;--line:#E3E5EC;--gray:#F2F3F7;--white:#fff;
+  --v:#635BFF;--vd:#4A41E6;--vl:#EDECFF;
+  --hd:72px;--wrap:1280px;
+  --f:"OS",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+  --pr:6px 30px 30px 6px; /* kształt "P": prosty lewy bok, łuk po prawej */
+}
+*,*::before,*::after{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;scroll-padding-top:calc(var(--hd) + 8px);overflow-x:clip}
+body{margin:0;background:#fff;color:var(--ink);font:400 17px/1.6 var(--f);overflow-x:clip;-webkit-font-smoothing:antialiased}
+img{max-width:100%;height:auto;display:block}
+a{color:var(--vd);text-underline-offset:3px}
+h1,h2,h3{font-weight:500;line-height:1.12;letter-spacing:-.025em;margin:0 0 .5em}
+h2{font-size:clamp(30px,4.2vw,54px)}
+h3{font-size:clamp(20px,1.7vw,24px);letter-spacing:-.015em;line-height:1.25}
+p{margin:0 0 1em}
+button,input,select,textarea{font:inherit;color:inherit}
+:focus-visible{outline:3px solid var(--v);outline-offset:3px}
+.wrap{width:min(var(--wrap),100% - 40px);margin-inline:auto}
+.skip{position:absolute;left:-999px;top:8px;z-index:300;background:#fff;padding:8px 14px}
+.skip:focus{left:8px}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+
+/* przyciski w kształcie litery P */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:.6em;min-height:54px;padding:.8em 1.5em .8em 1.25em;border-radius:var(--pr);font:500 17px/1.1 var(--f);text-decoration:none;border:0;cursor:pointer;transition:background .2s,color .2s,transform .2s;white-space:nowrap}
+.btn:active{transform:scale(.98)}
+.btn-v{background:var(--v);color:#fff}
+.btn-v:hover{background:var(--vd);color:#fff}
+.btn-w{background:#fff;color:var(--ink)}
+.btn-w:hover{background:var(--vl);color:var(--ink)}
+.btn-k{background:var(--ink);color:#fff}
+.btn-k:hover{background:#2A2D3A;color:#fff}
+.btn .ar{width:18px;height:18px;flex:none;transition:transform .2s}
+.btn:hover .ar{transform:translateX(3px)}
+.btn .tel{width:18px;height:18px;flex:none}
+
+/* znak ścieżki z litery P */
+.pmark{width:26px;height:30px;flex:none;color:var(--v)}
+
+/* ===== nagłówek ===== */
+.hd{position:fixed;inset:0 0 auto;z-index:100;height:var(--hd);color:#fff;transition:background .25s,color .25s,box-shadow .25s}
+.hd .wrap{height:100%;display:flex;align-items:center;gap:28px}
+.hd.on{background:rgba(255,255,255,.97);color:var(--ink);box-shadow:0 1px 0 var(--line)}
+.logo{display:flex;color:inherit;margin-right:auto}
+.logo svg{width:150px;height:auto}
+.nav{display:flex;gap:26px}
+.nav a{color:inherit;text-decoration:none;font-size:16px;opacity:.92;padding:6px 0;border-bottom:2px solid transparent}
+.nav a:hover{opacity:1;border-color:currentColor}
+.hd-tel{color:inherit;text-decoration:none;font-size:16px;white-space:nowrap}
+.hd .btn{min-height:46px;font-size:16px;padding:.6em 1.2em .6em 1.05em}
+.mbtn{display:none;width:46px;height:46px;border:0;background:transparent;color:inherit;padding:0;cursor:pointer;align-items:center;justify-content:center}
+.mbtn svg{width:30px;height:30px}
+@media (max-width:1180px){.nav{gap:18px}.hd-tel{display:none}}
+@media (max-width:999px){.nav,.hd .btn{display:none}.mbtn{display:inline-flex}.logo svg{width:128px}:root{--hd:64px}}
+
+/* menu mobilne */
+.mm{position:fixed;inset:0;z-index:200;background:#fff;color:var(--ink);display:flex;flex-direction:column;padding:0 20px 28px;transform:translateY(-100%);visibility:hidden;transition:transform .32s cubic-bezier(.2,.8,.2,1),visibility 0s .32s}
+.mm.open{transform:none;visibility:visible;transition:transform .32s cubic-bezier(.2,.8,.2,1)}
+.mm-top{height:var(--hd);display:flex;align-items:center;justify-content:space-between;flex:none}
+.mm-top .logo svg{width:128px}
+.mm nav{display:flex;flex-direction:column;margin-top:12px;overflow:auto}
+.mm nav a{display:flex;align-items:center;gap:14px;color:var(--ink);text-decoration:none;font:500 26px/1.2 var(--f);letter-spacing:-.02em;padding:14px 0;border-bottom:1px solid var(--line)}
+.mm nav a .pmark{width:20px;height:24px}
+.mm-bot{margin-top:auto;display:grid;gap:10px;padding-top:20px}
+.mm-bot .btn{width:100%}
+
+/* ===== hero ===== */
+.hero{position:relative;color:#fff;background:var(--ink);min-height:100svh;display:flex;flex-direction:column;justify-content:flex-end;overflow:hidden}
+.hero-ph{position:absolute;inset:0;display:grid;grid-template-columns:1fr}
+.hero-ph picture,.hero-ph img{width:100%;height:100%}
+.hero-ph img{object-fit:cover}
+.hero-ph .d{display:none}
+.hero-ph .m img{object-position:50% 30%}
+.hero::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(21,23,31,.55) 0,rgba(21,23,31,0) 20%,rgba(21,23,31,.15) 38%,rgba(21,23,31,.86) 66%,rgba(21,23,31,.95) 100%)}
+.hero-in{position:relative;z-index:2;padding:calc(var(--hd) + 24px) 0 28px}
+.hero h1{font-size:clamp(29px,7.6vw,72px);line-height:1.06;margin:0 0 16px;max-width:15em;text-wrap:balance}
+.hero-lead{font-size:clamp(16px,1.3vw,20px);line-height:1.5;color:#E4E5EE;max-width:36em;margin:0 0 24px}
+.hero-cta{display:flex;flex-wrap:wrap;gap:10px}
+.hero-proof{display:flex;flex-wrap:wrap;gap:6px 18px;margin:20px 0 0;padding:0;list-style:none;font-size:14px;color:#C9CBD8}
+.hero-proof b{color:#fff;font-weight:500}
+.hero-proof li{display:flex;align-items:center;gap:7px}
+.hero-proof li::before{content:"";width:7px;height:7px;border-radius:0 7px 7px 0;background:var(--v)}
+@media (max-width:599px){
+  .hero-cta{display:grid;grid-template-columns:1fr auto}
+  .hero-cta .btn{padding-inline:1em;min-height:54px;font-size:16px}
+  .btn-tel{width:54px;padding:0!important}.btn-tel .tnum{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}.btn-tel .tel{width:22px;height:22px}
+  .hero-proof{font-size:13px;gap:4px 14px;margin-top:16px}
+}
+@media (max-width:374px){.hero h1{font-size:27px}.hero-lead{font-size:15px;margin-bottom:24px}.hero-cta .btn{font-size:15px;padding-inline:.85em}}
+@media (min-width:900px){
+  .hero{min-height:100svh}
+  .hero-ph{grid-template-columns:1fr 1fr 1fr;gap:4px}
+  .hero-ph .m{display:none}.hero-ph .d{display:block}
+  .hero::after{background:linear-gradient(90deg,rgba(21,23,31,.94) 0,rgba(21,23,31,.86) 34%,rgba(21,23,31,.35) 62%,rgba(21,23,31,.08) 100%),linear-gradient(180deg,rgba(21,23,31,.5) 0,rgba(21,23,31,0) 22%)}
+  .hero-in{padding:calc(var(--hd) + 40px) 0 clamp(48px,7vh,96px)}
+  .hero h1{max-width:13.5em}
+  .hero-lead{max-width:31em}
+}
+
+/* ===== sekcje ===== */
+.sec{padding:clamp(64px,9vw,120px) 0}
+.sec-g{background:var(--gray)}
+.sec-k{background:var(--ink);color:#fff}
+.sec-head{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:16px 40px;margin-bottom:clamp(28px,4vw,52px)}
+.sec-head h2{margin:0;max-width:16em}
+.sec-head p{margin:0;max-width:30em;color:var(--mut)}
+.sec-k .sec-head p{color:#B9BBC9}
+
+/* Od czego zaczynamy - trasy */
+.routes{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}
+.route{position:relative;display:flex;flex-direction:column;gap:10px;padding:28px 30px 26px;border:1px solid var(--line);border-radius:6px 34px 6px 6px;text-decoration:none;color:var(--ink);transition:border-color .2s,background .2s}
+.route:hover{border-color:var(--v);background:#FAFAFF}
+.route h3{display:flex;gap:14px;align-items:flex-start;margin:0;font-size:clamp(21px,1.9vw,27px)}
+.route p{margin:0 0 0 40px;color:var(--mut)}
+.route .go{margin:6px 0 0 40px;display:inline-flex;align-items:center;gap:8px;font-weight:500;color:var(--vd)}
+.route .go svg{width:18px;height:18px;transition:transform .2s}
+.route:hover .go svg{transform:translateX(4px)}
+@media (max-width:759px){.routes{grid-template-columns:1fr;gap:12px}.route{padding:22px 20px}.route p,.route .go{margin-left:40px}}
+
+/* karuzele */
+.rail{display:grid;grid-auto-flow:column;gap:16px;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;-webkit-overflow-scrolling:touch;overscroll-behavior-x:contain;padding-bottom:4px;cursor:grab}
+.rail::-webkit-scrollbar{display:none}
+.rail.drag{cursor:grabbing;scroll-snap-type:none}
+.rail.drag *{pointer-events:none}
+.rail>*{scroll-snap-align:start}
+.rail-nav{display:flex;gap:8px}
+.rail-nav button{width:52px;height:52px;border:1px solid currentColor;background:transparent;border-radius:var(--pr);display:inline-flex;align-items:center;justify-content:center;cursor:pointer;color:inherit;opacity:.85;transition:opacity .2s,background .2s}
+.rail-nav button:hover{opacity:1}
+.rail-nav button:disabled{opacity:.25;cursor:default}
+.rail-nav svg{width:20px;height:20px}
+.rail-nav .prev svg{transform:scaleX(-1)}
+.dots{display:none;justify-content:center;gap:6px;margin-top:18px}
+.dots i{width:8px;height:8px;border-radius:0 8px 8px 0;background:currentColor;opacity:.25;transition:opacity .2s,width .2s}
+.dots i.on{opacity:1;width:22px}
+@media (max-width:899px){.rail-nav{display:none}.dots{display:flex}}
+
+/* usługi */
+.svc-rail{grid-auto-columns:calc((100% - 48px)/4)}
+.svc{background:#fff;border-radius:6px 34px 6px 6px;overflow:hidden;display:flex;flex-direction:column}
+.svc-img{aspect-ratio:4/3;overflow:hidden}
+.svc-img img{width:100%;height:100%;object-fit:cover;transition:transform .5s}
+.svc:hover .svc-img img{transform:scale(1.03)}
+.svc-b{padding:24px 24px 26px;display:flex;flex-direction:column;flex:1}
+.svc-b h3{margin-bottom:10px}
+.svc-b p{color:var(--mut);font-size:16px}
+.svc-b ul{list-style:none;margin:0 0 20px;padding:14px 0 0;border-top:1px solid var(--line);display:grid;gap:7px;font-size:15px;color:var(--ink2)}
+.svc-b li{display:flex;gap:10px;align-items:baseline}
+.svc-b li::before{content:"";flex:none;width:6px;height:6px;border-radius:0 6px 6px 0;background:var(--v);transform:translateY(-2px)}
+.svc-b a{margin-top:auto;display:inline-flex;align-items:center;gap:8px;font-weight:500;text-decoration:none;color:var(--vd)}
+.svc-b a svg{width:18px;height:18px}
+@media (max-width:1100px){.svc-rail{grid-auto-columns:calc((100% - 32px)/2.6)}}
+@media (max-width:699px){.svc-rail{grid-auto-columns:84%}}
+
+/* wyniki */
+.res-rail{grid-auto-columns:calc((100% - 32px)/3)}
+.res{display:flex;flex-direction:column;background:#1E212C;border:1px solid #2C3040;border-radius:6px 34px 6px 6px;padding:30px 28px 26px;min-height:390px}
+.res-k{font-size:15px;color:#B9BBC9;margin:0 0 22px}
+.res-k b{display:block;color:#fff;font-weight:500;font-size:17px}
+.res-n{font:500 clamp(54px,6vw,84px)/1 var(--f);letter-spacing:-.04em;color:#fff;margin:0 0 8px}
+.res-n span{color:var(--v)}
+.res-t{font-size:18px;line-height:1.4;color:#E4E5EE;margin:0 0 20px}
+.res dl{margin:auto 0 18px;display:grid;grid-template-columns:auto 1fr;gap:6px 16px;font-size:14px;border-top:1px solid #2C3040;padding-top:16px}
+.res dt{color:#8E91A3}
+.res dd{margin:0;color:#E4E5EE}
+.res a{color:#fff;font-weight:500;text-decoration:none;display:inline-flex;gap:8px;align-items:center}
+.res a svg{width:18px;height:18px;color:var(--v)}
+@media (max-width:1100px){.res-rail{grid-auto-columns:calc((100% - 16px)/2.15)}}
+@media (max-width:699px){.res-rail{grid-auto-columns:86%}.res{min-height:0;padding:26px 22px 22px}}
+
+/* AI Search */
+.ai{display:grid;grid-template-columns:1.05fr 1fr;gap:clamp(32px,6vw,96px);align-items:center}
+.ai-big{font:500 clamp(30px,3.6vw,50px)/1.12 var(--f);letter-spacing:-.03em;margin:0 0 22px}
+.ai-big span{color:var(--vd)}
+.ai-txt{color:var(--mut);max-width:34em}
+.ai-list{list-style:none;margin:28px 0 30px;padding:0;display:grid;gap:0}
+.ai-list li{display:flex;gap:16px;padding:18px 0;border-top:1px solid var(--line)}
+.ai-list li:last-child{border-bottom:1px solid var(--line)}
+.ai-list b{display:block;font-weight:500;font-size:18px;margin-bottom:3px}
+.ai-list span{color:var(--mut);font-size:16px}
+.ai-ph{position:relative}
+.ai-ph img{width:100%;border-radius:6px 60px 6px 6px;aspect-ratio:4/5;object-fit:cover}
+.ai-path{position:absolute;left:-46px;top:-36px;width:170px;height:auto;color:var(--v);pointer-events:none}
+@media (max-width:899px){.ai{grid-template-columns:1fr}.ai-ph{order:-1;max-width:560px}.ai-ph img{aspect-ratio:3/2}.ai-path{display:none}}
+
+/* opinie */
+.rate{display:flex;flex-wrap:wrap;gap:12px 36px;margin:20px 0 0;padding:0;list-style:none}
+.rate li{display:flex;align-items:baseline;gap:10px}
+.rate b{font:500 40px/1 var(--f);letter-spacing:-.03em}
+.rate span{color:var(--mut);font-size:15px}
+@media (max-width:599px){.rate{gap:10px 24px}.rate b{font-size:32px}.rate li:last-child{flex-basis:100%}}
+.op-rail{grid-auto-columns:calc((100% - 32px)/3)}
+.op{background:#fff;border-radius:6px 34px 6px 6px;padding:30px 28px;display:flex;flex-direction:column;margin:0}
+.op blockquote{margin:0 0 24px;font-size:18px;line-height:1.55}
+.op>.pmark{margin-bottom:18px}
+.op figcaption{margin-top:auto;padding-top:16px;border-top:1px solid var(--line);font-size:15px;color:var(--mut)}
+.op figcaption b{display:block;color:var(--ink);font-weight:500;font-size:16px}
+@media (max-width:1100px){.op-rail{grid-auto-columns:calc((100% - 16px)/2.1)}}
+@media (max-width:699px){.op-rail{grid-auto-columns:88%}.op{padding:26px 22px}}
+
+/* zespół */
+.team{display:grid;grid-template-columns:1fr 1fr;gap:clamp(32px,5vw,80px);align-items:center}
+.team-ph img{width:100%;max-width:1200px;border-radius:6px 60px 6px 6px}
+.team-ph figcaption{font-size:14px;color:var(--mut);margin-top:10px}
+.prom{list-style:none;margin:26px 0 30px;padding:0;display:grid;gap:14px}
+.prom li{display:flex;gap:14px;align-items:flex-start;font-size:17px}
+.prom li .pmark{width:22px;height:26px;margin-top:1px}
+.names{display:flex;flex-wrap:wrap;gap:8px;margin:0;padding:0;list-style:none}
+.names li{font-size:14px;background:var(--gray);border-radius:4px 16px 16px 4px;padding:7px 14px 7px 12px;color:var(--ink2)}
+.names li b{font-weight:500;color:var(--ink)}
+@media (max-width:899px){.team{grid-template-columns:1fr}}
+
+/* kontakt */
+.kt{display:grid;grid-template-columns:.9fr 1.1fr;gap:clamp(32px,6vw,96px);align-items:start}
+.kt-d{display:grid;gap:0;margin:28px 0 0}
+.kt-d a,.kt-d div{display:flex;flex-direction:column;padding:16px 0;border-top:1px solid #2C3040;color:#fff;text-decoration:none}
+.kt-d small{color:#8E91A3;font-size:14px}
+.kt-d span{font-size:clamp(19px,1.7vw,24px);letter-spacing:-.01em}
+.kt-d a:hover span{color:#B3AEFF}
+.form{background:#fff;color:var(--ink);border-radius:6px 40px 6px 6px;padding:clamp(24px,3.4vw,44px)}
+.form h3{font-size:clamp(22px,2vw,28px);margin-bottom:6px}
+.form>p{color:var(--mut);font-size:16px;margin-bottom:22px}
+.fg{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.f{display:flex;flex-direction:column;gap:6px;font-size:14px;color:var(--ink2)}
+.f.full{grid-column:1/-1}
+.f input,.f textarea{width:100%;border:1px solid #CFD2DC;border-radius:6px;padding:13px 14px;font-size:16px;background:#fff;transition:border-color .2s,box-shadow .2s}
+.f input:focus,.f textarea:focus{outline:0;border-color:var(--v);box-shadow:0 0 0 3px rgba(99,91,255,.18)}
+.f textarea{min-height:96px;resize:vertical}
+.chips{display:flex;flex-wrap:wrap;gap:8px;border:0;margin:0;padding:0;grid-column:1/-1}
+.chips legend{font-size:14px;color:var(--ink2);margin-bottom:8px;padding:0}
+.chips label{position:relative}
+.chips input{position:absolute;opacity:0;inset:0}
+.chips span{display:inline-block;border:1px solid #CFD2DC;border-radius:4px 18px 18px 4px;padding:9px 16px 9px 13px;font-size:15px;cursor:pointer;transition:all .2s}
+.chips input:checked+span{background:var(--ink);border-color:var(--ink);color:#fff}
+.chips input:focus-visible+span{outline:3px solid var(--v);outline-offset:2px}
+.form .btn{width:100%;margin-top:18px}
+.f-note{font-size:13px;color:var(--mut);margin:12px 0 0}
+.f-ok{display:none;margin-top:14px;padding:12px 14px;background:var(--vl);border-radius:6px;font-size:15px}
+@media (max-width:899px){.kt{grid-template-columns:1fr}}
+@media (max-width:599px){.fg{grid-template-columns:1fr}}
+
+/* stopka */
+.ft{background:#0E1016;color:#A9ACBB;padding:56px 0 28px;font-size:15px}
+.ft-g{display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr;gap:32px}
+.ft .logo svg{width:140px;color:#fff}
+.ft h4{color:#fff;font-weight:500;font-size:15px;margin:0 0 12px}
+.ft ul{list-style:none;margin:0;padding:0;display:grid;gap:8px}
+.ft a{color:#A9ACBB;text-decoration:none}
+.ft a:hover{color:#fff}
+.ft-firm{margin-top:16px;line-height:1.7}
+.ft-bot{display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px 24px;border-top:1px solid #23262F;margin-top:40px;padding-top:22px;font-size:14px}
+@media (max-width:899px){.ft-g{grid-template-columns:1fr 1fr}.ft-g>div:first-child{grid-column:1/-1}}
+
+/* pasek mobilny */
+.mbar{display:none}
+@media (max-width:699px){
+  .mbar{display:grid;grid-template-columns:auto 1fr;gap:8px;position:fixed;left:0;right:0;bottom:0;z-index:90;padding:10px 12px calc(10px + env(safe-area-inset-bottom));background:rgba(255,255,255,.97);box-shadow:0 -1px 0 var(--line);transform:translateY(110%);transition:transform .3s}
+  .mbar.on{transform:none}
+  .mbar .btn{min-height:48px;font-size:16px}
+  .ft{padding-bottom:96px}
+}
+.rv{opacity:0;transform:translateY(18px);transition:opacity .6s,transform .6s}
+.rv.in{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}.rv{opacity:1;transform:none}}
+</style>
+<style>
+.wylinka-badge{display:inline-flex;align-items:center;gap:.4em;color:inherit;text-decoration:none;font-size:.875em;line-height:1;opacity:.85}
+.wylinka-badge:hover,.wylinka-badge:focus-visible{opacity:1}
+.wylinka-badge:focus-visible{outline:2px solid currentColor;outline-offset:3px;border-radius:2px}
+.wylinka-badge svg{width:18px;height:18px;flex:none;overflow:visible}
+.wylinka-badge b{font-weight:600}
+.wylinka-badge .wy-old{opacity:.45;transform-origin:40px 30px;transition:transform .32s cubic-bezier(.3,.7,.4,1),opacity .32s ease-out}
+.wylinka-badge .wy-pod{opacity:0;transition:opacity .2s ease-out .08s}
+.wylinka-badge:hover .wy-old,.wylinka-badge:focus-visible .wy-old{transform:translate(9px,7px) rotate(9deg);opacity:0}
+.wylinka-badge:hover .wy-pod,.wylinka-badge:focus-visible .wy-pod{opacity:1}
+@media (prefers-reduced-motion:reduce){.wylinka-badge .wy-old,.wylinka-badge .wy-pod{transition:none}.wylinka-badge:hover .wy-old,.wylinka-badge:focus-visible .wy-old{transform:none;opacity:.45}.wylinka-badge:hover .wy-pod,.wylinka-badge:focus-visible .wy-pod{opacity:0}}
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <symbol id="logo" viewBox="0 4 1653 214"><g fill="currentColor" fill-rule="evenodd"><path transform="translate(0 6)" d="M0 0H117C167 0 202 29 202 72C202 116 167 144 117 144H88C73 144 60 155 60 174V210H0V163C0 125 29 96 67 96H117C132 96 142 86 142 72C142 57 132 47 117 47H49C18 47 0 30 0 0Z"/><path transform="translate(234 6)" d="M0 0H99C152 0 188 29 188 72C188 101 173 122 146 133L202 210H137L90 144H57V210H0ZM57 43V100H98C119 100 132 89 132 72C132 54 119 43 98 43Z"/><path transform="translate(447 4)" d="M116 0C181 0 233 47.1 233 107C233 167.9 182 214 116 214C50 214 0 167.9 0 107C0 47.1 51 0 116 0ZM116 45.2C81 45.2 54 71.7 54 107C54 142.3 81 164.9 116 164.9C151 164.9 177 142.3 177 107C177 71.7 151 45.2 116 45.2Z"/><path transform="translate(708 6)" d="M0 0H99C150 0 183 28 183 72C183 117 150 146 99 146H55V210H0ZM55 43V102H96C116 102 128 90 128 72C128 54 116 43 96 43Z"/><path transform="translate(907 4)" d="M172 20.3L154 59.1C134 47.4 115 41.6 95 41.6C75 41.6 63 49.4 63 61C63 93.9 180 73.6 180 147.2C180 187.9 146 214 88 214C54 214 22 204.3 0 186.9L21 144.3C40 159.8 67 167.5 89 167.5C111 167.5 123 162.7 123 150.1C123 117.2 7 136.5 7 62.9C7 25.2 43 0 96 0C124 0 152 7.7 172 20.3Z"/><path transform="translate(1115 6)" d="M0 0H159V45H55V80H149V123H55V163H165V210H0Z"/><path transform="translate(1296 4)" d="M116 0C181 0 233 47.1 233 107C233 167.9 182 214 116 214C50 214 0 167.9 0 107C0 47.1 51 0 116 0ZM116 45.2C81 45.2 54 71.7 54 107C54 142.3 81 164.9 116 164.9C151 164.9 177 142.3 177 107C177 71.7 151 45.2 116 45.2Z"/><path transform="translate(1538 6)" d="M0 0H45V11H30V50H15V11H0Z"/><path transform="translate(1590 6)" d="M0 0H14L31 29L49 0H63V50H49V23L35 45H26L14 24V50H0Z"/></g></symbol>
+    <!-- ścieżka ruchu: środek wstęgi litery P z logo -->
+    <symbol id="pm" viewBox="0 0 202 210"><path d="M24 24H117C152 24 172 46 172 72C172 99 152 120 117 120H67C45 120 30 137 30 160V210" fill="none" stroke="currentColor" stroke-width="40" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="ar" viewBox="0 0 24 24"><path d="M4 12h15m-6-6 6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="tel" viewBox="0 0 24 24"><path d="M6.6 3.5h3l1.4 4.2-2 1.5a12 12 0 0 0 5.8 5.8l1.5-2 4.2 1.4v3c0 1-.8 1.8-1.8 1.8A16.6 16.6 0 0 1 4.8 5.3c0-1 .8-1.8 1.8-1.8z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></symbol>
+  </defs>
+</svg>
+<a class="skip" href="#tresc">Przejdź do treści</a>
+
+<header class="hd" id="hd">
+  <div class="wrap">
+    <a class="logo" href="#" aria-label="PROPSEO - strona główna"><svg viewBox="0 4 1653 214" role="img" aria-hidden="true"><use href="#logo"/></svg></a>
+    <nav class="nav" aria-label="Menu główne">
+      <a href="#uslugi">Usługi</a>
+      <a href="#wyniki">Case study</a>
+      <a href="#ai-search">AI Search</a>
+      <a href="#opinie">Opinie</a>
+      <a href="#zespol">Zespół</a>
+      <a href="#kontakt">Kontakt</a>
+    </nav>
+    <a class="hd-tel" href="tel:+48530514642">530 514 642</a>
+    <a class="btn btn-v" href="#kontakt">Bezpłatna konsultacja</a>
+    <button class="mbtn" id="mopen" aria-label="Otwórz menu" aria-expanded="false" aria-controls="mm"><svg viewBox="0 0 30 30"><path d="M4 9h22M4 15h22M4 21h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></button>
+  </div>
+</header>
+
+<div class="mm" id="mm" role="dialog" aria-modal="true" aria-label="Menu">
+  <div class="mm-top">
+    <a class="logo" href="#"><svg viewBox="0 4 1653 214" aria-hidden="true"><use href="#logo"/></svg><span class="sr">PROPSEO</span></a>
+    <button class="mbtn" id="mclose" aria-label="Zamknij menu" style="display:inline-flex"><svg viewBox="0 0 30 30"><path d="M7 7l16 16M23 7 7 23" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></button>
+  </div>
+  <nav aria-label="Menu mobilne">
+    <a href="#uslugi"><svg class="pmark"><use href="#pm"/></svg>Usługi</a>
+    <a href="#wyniki"><svg class="pmark"><use href="#pm"/></svg>Case study</a>
+    <a href="#ai-search"><svg class="pmark"><use href="#pm"/></svg>AI Search</a>
+    <a href="#opinie"><svg class="pmark"><use href="#pm"/></svg>Opinie</a>
+    <a href="#zespol"><svg class="pmark"><use href="#pm"/></svg>Zespół</a>
+    <a href="#kontakt"><svg class="pmark"><use href="#pm"/></svg>Kontakt</a>
+  </nav>
+  <div class="mm-bot">
+    <a class="btn btn-v" href="#kontakt">Bezpłatna konsultacja<svg class="ar"><use href="#ar"/></svg></a>
+    <a class="btn btn-k" href="tel:+48530514642"><svg class="tel"><use href="#tel"/></svg>530 514 642</a>
+  </div>
+</div>
+
+<main id="tresc">
+<section class="hero" aria-labelledby="h1">
+  <div class="hero-ph" aria-hidden="true">
+    <picture class="m"><img src="img/biuro-14-540.webp" srcset="img/biuro-14-540.webp 540w, img/biuro-14-800.webp 800w" sizes="100vw" width="800" height="1200" alt="" fetchpriority="high"></picture>
+    <picture class="d"><img src="img/biuro-1-800.webp" srcset="img/biuro-1-540.webp 540w, img/biuro-1-800.webp 800w" sizes="34vw" width="800" height="1200" alt="" loading="lazy"></picture>
+    <picture class="d"><img src="img/biuro-14-800.webp" srcset="img/biuro-14-540.webp 540w, img/biuro-14-800.webp 800w" sizes="34vw" width="800" height="1200" alt=""></picture>
+    <picture class="d"><img src="img/biuro-31-800.webp" srcset="img/biuro-31-540.webp 540w, img/biuro-31-800.webp 800w" sizes="34vw" width="800" height="1200" alt="" loading="lazy"></picture>
+  </div>
+  <div class="wrap hero-in">
+    <h1 id="h1">Agencja SEO i AI Search we Wrocławiu&nbsp;- strategiczny ruch dla Twojej marki</h1>
+    <p class="hero-lead">Prowadzimy pozycjonowanie, widoczność w odpowiedziach AI i kampanie Google Ads dla firm z całej Polski. Zaczynamy od Twoich celów, a ustalony zakres wpisujemy do umowy.</p>
+    <div class="hero-cta">
+      <a class="btn btn-v" href="#kontakt">Bezpłatna konsultacja<svg class="ar" aria-hidden="true"><use href="#ar"/></svg></a>
+      <a class="btn btn-w btn-tel" href="tel:+48530514642" aria-label="Zadzwoń: 530 514 642"><svg class="tel" aria-hidden="true"><use href="#tel"/></svg><span class="tnum">530 514 642</span></a>
+    </div>
+    <ul class="hero-proof">
+      <li><span><b>4,7</b> w Google</span></li>
+      <li><span><b>5,0</b> w Clutch</span></li>
+      <li><span>Google Partner</span></li>
+      <li><span><b>400+</b> marek</span></li>
+    </ul>
+  </div>
+</section>
+
+<section class="sec" aria-labelledby="h-start">
+  <div class="wrap">
+    <div class="sec-head rv">
+      <h2 id="h-start">Od czego chcesz zacząć?</h2>
+      <p>Najpierw sprawdzamy, co dziś najbardziej ogranicza wzrost Twojej marki. Dopiero potem dobieramy działania.</p>
+    </div>
+    <div class="routes">
+      <a class="route rv" href="#uslugi">
+        <h3><svg class="pmark" aria-hidden="true"><use href="#pm"/></svg>Chcę więcej ruchu z Google i AI Search</h3>
+        <p>Sprawiamy, że marka pojawia się tam, gdzie szukają jej klienci: w wynikach Google i w rekomendacjach AI.</p>
+        <span class="go">SEO i AI Search<svg aria-hidden="true"><use href="#ar"/></svg></span>
+      </a>
+      <a class="route rv" href="#uslugi">
+        <h3><svg class="pmark" aria-hidden="true"><use href="#pm"/></svg>Chcę pozyskiwać klientów z kampanii</h3>
+        <p>Planujemy i prowadzimy kampanie tak, żeby budżet zamieniał się w wartościowe zapytania i sprzedaż.</p>
+        <span class="go">Kampanie reklamowe<svg aria-hidden="true"><use href="#ar"/></svg></span>
+      </a>
+      <a class="route rv" href="#uslugi">
+        <h3><svg class="pmark" aria-hidden="true"><use href="#pm"/></svg>Mam ruch, ale za mało zapytań</h3>
+        <p>Sprawdzamy, co utrudnia odwiedzającym zakup lub kontakt, i poprawiamy właśnie te miejsca na stronie.</p>
+        <span class="go">Optymalizacja konwersji<svg aria-hidden="true"><use href="#ar"/></svg></span>
+      </a>
+      <a class="route rv" href="#uslugi">
+        <h3><svg class="pmark" aria-hidden="true"><use href="#pm"/></svg>Dotychczasowe działania nie zadziałały</h3>
+        <p>Przeglądamy dotychczasową strategię, ustalamy, dlaczego nie przyniosła efektów, i przygotowujemy nowy plan.</p>
+        <span class="go">Strategia i doradztwo<svg aria-hidden="true"><use href="#ar"/></svg></span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="sec sec-g" id="uslugi" aria-labelledby="h-uslugi">
+  <div class="wrap">
+    <div class="sec-head rv">
+      <h2 id="h-uslugi">Usługi, które prowadzą do celu</h2>
+      <div class="rail-nav" data-for="svc"><button class="prev" aria-label="Poprzednie"><svg><use href="#ar"/></svg></button><button class="next" aria-label="Następne"><svg><use href="#ar"/></svg></button></div>
+    </div>
+    <div class="rail svc-rail" id="svc">
+      <article class="svc">
+        <div class="svc-img"><img src="img/biuro-18-560.webp" srcset="img/biuro-18-560.webp 560w, img/biuro-18-800.webp 800w" sizes="(max-width:699px) 84vw, (max-width:1100px) 38vw, 310px" width="800" height="533" alt="Specjaliści PROPSEO przy wspólnym stole z laptopami" loading="lazy"></div>
+        <div class="svc-b">
+          <h3>SEO i AI Search</h3>
+          <p>Widoczność w Google i w odpowiedziach modeli AI, oparta na treściach, strukturze serwisu i linkach.</p>
+          <ul><li>Audyt SEO i audyt widoczności w AI</li><li>Content marketing</li><li>AI Brand i monitoring wzmianek</li><li>Analiza cytowań i źródeł</li></ul>
+          <a href="#kontakt">Zapytaj o SEO<svg aria-hidden="true"><use href="#ar"/></svg></a>
+        </div>
+      </article>
+      <article class="svc">
+        <div class="svc-img"><img src="img/biuro-38-560.webp" srcset="img/biuro-38-560.webp 560w, img/biuro-38-800.webp 800w" sizes="(max-width:699px) 84vw, (max-width:1100px) 38vw, 310px" width="800" height="533" alt="Specjalista kampanii reklamowych przy komputerze" loading="lazy"></div>
+        <div class="svc-b">
+          <h3>Kampanie reklamowe</h3>
+          <p>Reklamy, które rozliczamy z zapytań i sprzedaży, a nie z samych kliknięć.</p>
+          <ul><li>Google Ads</li><li>Meta Ads</li><li>LinkedIn Ads i Bing Ads</li><li>Audyt kampanii i atrybucji</li></ul>
+          <a href="#kontakt">Zapytaj o kampanie<svg aria-hidden="true"><use href="#ar"/></svg></a>
+        </div>
+      </article>
+      <article class="svc">
+        <div class="svc-img"><img src="img/biuro-13-560.webp" srcset="img/biuro-13-560.webp 560w, img/biuro-13-800.webp 800w" sizes="(max-width:699px) 84vw, (max-width:1100px) 38vw, 310px" width="800" height="533" alt="Zespół analizuje wyniki na laptopie" loading="lazy"></div>
+        <div class="svc-b">
+          <h3>Konwersja i analityka</h3>
+          <p>Mierzymy, skąd przychodzą klienci, i poprawiamy miejsca, w których rezygnują.</p>
+          <ul><li>Optymalizacja konwersji (CRO)</li><li>Audyt analityki</li><li>Wdrożenie GA4 i CAPI</li><li>Marketing automation</li></ul>
+          <a href="#kontakt">Zapytaj o analitykę<svg aria-hidden="true"><use href="#ar"/></svg></a>
+        </div>
+      </article>
+      <article class="svc">
+        <div class="svc-img"><img src="img/biuro-6-560.webp" srcset="img/biuro-6-560.webp 560w, img/biuro-6-800.webp 800w" sizes="(max-width:699px) 84vw, (max-width:1100px) 38vw, 310px" width="800" height="533" alt="Spotkanie strategiczne w biurze PROPSEO we Wrocławiu" loading="lazy"></div>
+        <div class="svc-b">
+          <h3>Strategia i doradztwo</h3>
+          <p>Plan na 12 miesięcy, dopasowany do etapu rozwoju firmy i do tego, jak kupują Twoi klienci.</p>
+          <ul><li>Strategie SEO, AI i reklamowe</li><li>Konsultacje e-commerce</li><li>Wsparcie zespołów in-house</li><li>Audyt sezonowości</li></ul>
+          <a href="#kontakt">Zapytaj o strategię<svg aria-hidden="true"><use href="#ar"/></svg></a>
+        </div>
+      </article>
+    </div>
+    <div class="dots" data-for="svc"></div>
+  </div>
+</section>
+
+<section class="sec sec-k" id="wyniki" aria-labelledby="h-wyniki">
+  <div class="wrap">
+    <div class="sec-head rv">
+      <div>
+        <h2 id="h-wyniki">Wyniki naszych klientów</h2>
+        <p>Liczby z case studies: ten sam okres rok do roku albo stan przed i po współpracy.</p>
+      </div>
+      <div class="rail-nav" data-for="res"><button class="prev" aria-label="Poprzednie"><svg><use href="#ar"/></svg></button><button class="next" aria-label="Następne"><svg><use href="#ar"/></svg></button></div>
+    </div>
+    <div class="rail res-rail" id="res">
+      <article class="res">
+        <p class="res-k"><b>FutureMeds</b>sieć ośrodków badań klinicznych</p>
+        <p class="res-n">+121<span>%</span></p>
+        <p class="res-t">więcej kliknięć z Google rok do roku</p>
+        <dl><dt>Zakres</dt><dd>SEO i doradztwo strategiczne</dd><dt>Czas</dt><dd>36 miesięcy</dd><dt>TOP3</dt><dd>1 033 frazy, wcześniej 84</dd></dl>
+        <a href="#kontakt">Chcę podobny wynik<svg aria-hidden="true"><use href="#ar"/></svg></a>
+      </article>
+      <article class="res">
+        <p class="res-k"><b>Sklep z suplementami diety</b>e-commerce</p>
+        <p class="res-n">3 502</p>
+        <p class="res-t">frazy w TOP3 Google, wcześniej 2 589</p>
+        <dl><dt>Zakres</dt><dd>SEO</dd><dt>Czas</dt><dd>8 miesięcy</dd><dt>Ruch</dt><dd>szacowany ruch organiczny +57%</dd></dl>
+        <a href="#kontakt">Chcę podobny wynik<svg aria-hidden="true"><use href="#ar"/></svg></a>
+      </article>
+      <article class="res">
+        <p class="res-k"><b>Natalia Sowierka</b>moda premium</p>
+        <p class="res-n">+259<span>%</span></p>
+        <p class="res-t">więcej użytkowników z Google rok do roku</p>
+        <dl><dt>Zakres</dt><dd>SEO i doradztwo strategiczne</dd><dt>Czas</dt><dd>12 miesięcy</dd><dt>Cel</dt><dd>mniejsza zależność od reklam</dd></dl>
+        <a href="#kontakt">Chcę podobny wynik<svg aria-hidden="true"><use href="#ar"/></svg></a>
+      </article>
+      <article class="res">
+        <p class="res-k"><b>Onled</b>sklep z oświetleniem LED, Wrocław</p>
+        <p class="res-n">+196<span>%</span></p>
+        <p class="res-t">ruchu organicznego po uporządkowaniu sklepu</p>
+        <dl><dt>Zakres</dt><dd>SEO</dd><dt>Czas</dt><dd>11 miesięcy</dd><dt>Klucz</dt><dd>nowa struktura kategorii</dd></dl>
+        <a href="#kontakt">Chcę podobny wynik<svg aria-hidden="true"><use href="#ar"/></svg></a>
+      </article>
+      <article class="res">
+        <p class="res-k"><b>Producent podłóg drewnianych</b>dwa rynki lokalne</p>
+        <p class="res-n">TOP<span>2</span></p>
+        <p class="res-t">fraza „podłogi drewniane + miasto”, wcześniej poza TOP50</p>
+        <dl><dt>Zakres</dt><dd>SEO i doradztwo strategiczne</dd><dt>Czas</dt><dd>9 miesięcy</dd><dt>TOP10</dt><dd>48 fraz, wcześniej 20</dd></dl>
+        <a href="#kontakt">Chcę podobny wynik<svg aria-hidden="true"><use href="#ar"/></svg></a>
+      </article>
+      <article class="res">
+        <p class="res-k"><b>Sklep z biżuterią</b>detal i hurt</p>
+        <p class="res-n">+33<span>%</span></p>
+        <p class="res-t">więcej kliknięć z Google rok do roku</p>
+        <dl><dt>Zakres</dt><dd>SEO i doradztwo strategiczne</dd><dt>Czas</dt><dd>12 miesięcy</dd><dt>Klucz</dt><dd>linki i kategorie prezentowe</dd></dl>
+        <a href="#kontakt">Chcę podobny wynik<svg aria-hidden="true"><use href="#ar"/></svg></a>
+      </article>
+    </div>
+    <div class="dots" data-for="res"></div>
+  </div>
+</section>
+
+<section class="sec" id="ai-search" aria-labelledby="h-ai">
+  <div class="wrap ai">
+    <div class="rv">
+      <h2 id="h-ai" class="ai-big">AI zmieniło sposób wyszukiwania. <span>Sprawdzamy, czy AI poleca Twoją markę.</span></h2>
+      <p class="ai-txt">W 73% zapytań Google pokazuje już odpowiedzi AI. Dla firm to nowe miejsce, w którym klient wybiera, zanim w ogóle kliknie w wynik.</p>
+      <ul class="ai-list">
+        <li><svg class="pmark" aria-hidden="true"><use href="#pm"/></svg><div><b>Badamy obecność marki w AI</b><span>Kiedy model wymienia Twoją firmę, z jakich źródeł korzysta i gdzie wygrywa konkurencja.</span></div></li>
+        <li><svg class="pmark" aria-hidden="true"><use href="#pm"/></svg><div><b>Przygotowujemy serwis pod silniki AI</b><span>Treści, struktura i technika strony, które modele łatwo odczytują i cytują.</span></div></li>
+        <li><svg class="pmark" aria-hidden="true"><use href="#pm"/></svg><div><b>Opieramy decyzje na własnych badaniach</b><span>W PROPSEO Labs mamy własne narzędzia do analityki AI Search i porównujemy różne modele.</span></div></li>
+      </ul>
+      <a class="btn btn-k" href="#kontakt">Sprawdź swoją markę w AI<svg class="ar" aria-hidden="true"><use href="#ar"/></svg></a>
+    </div>
+    <div class="ai-ph rv">
+      <svg class="ai-path" viewBox="0 0 202 210" aria-hidden="true"><path d="M24 24H117C152 24 172 46 172 72C172 99 152 120 117 120H67C45 120 30 137 30 160V210" fill="none" stroke="currentColor" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      <img src="img/biuro-31-800.webp" srcset="img/biuro-31-540.webp 540w, img/biuro-31-800.webp 800w" sizes="(max-width:899px) 100vw, 45vw" width="800" height="1200" alt="Specjalista PROPSEO w biurze we Wrocławiu" loading="lazy">
+    </div>
+  </div>
+</section>
+
+<section class="sec sec-g" id="opinie" aria-labelledby="h-op">
+  <div class="wrap">
+    <div class="sec-head rv">
+      <div>
+        <h2 id="h-op">Tak oceniają nas klienci</h2>
+        <ul class="rate">
+          <li><b>4,7</b><span>/ 5 w Google</span></li>
+          <li><b>5,0</b><span>/ 5 w Clutch</span></li>
+          <li><b>91%</b><span>klientów zostaje z nami ponad 12 miesięcy</span></li>
+        </ul>
+      </div>
+      <div class="rail-nav" data-for="op"><button class="prev" aria-label="Poprzednie"><svg><use href="#ar"/></svg></button><button class="next" aria-label="Następne"><svg><use href="#ar"/></svg></button></div>
+    </div>
+    <div class="rail op-rail" id="op">
+      <figure class="op"><svg class="pmark" aria-hidden="true"><use href="#pm"/></svg><blockquote>Na dzień dzisiejszy jesteśmy drugą najbardziej widoczną w internecie firmą branży oświetleniowej we Wrocławiu. Jesteśmy również nr 1 w pięciu istotnych dla naszej branży słowach kluczowych.</blockquote><figcaption><b>Krystian Łokietko</b>E-commerce Manager, Onled</figcaption></figure>
+      <figure class="op"><svg class="pmark" aria-hidden="true"><use href="#pm"/></svg><blockquote>Współpraca z PROPSEO przyniosła nam wymierne korzyści: większą widoczność strony w wynikach wyszukiwania, a przez to więcej zapytań ofertowych i nowych klientów.</blockquote><figcaption><b>Damian Rajkowski</b>Rajkowski Budownictwo</figcaption></figure>
+      <figure class="op"><svg class="pmark" aria-hidden="true"><use href="#pm"/></svg><blockquote>Współpraca przebiega pomyślnie od samego początku, od diagnozy po wdrażanie (pozycjonowanie i kampania Google Ads). Zespół jest zaangażowany i otwarty na sugestie klienta.</blockquote><figcaption><b>Huck Polska</b>opinia klienta</figcaption></figure>
+      <figure class="op"><svg class="pmark" aria-hidden="true"><use href="#pm"/></svg><blockquote>Bardzo dobrze oceniamy współpracę z PROPSEO. Od początku kontakt był profesjonalny, a działania SEO były prowadzone w sposób przemyślany i nastawiony na konkretne efekty.</blockquote><figcaption><b>Team Sport</b>opinia klienta</figcaption></figure>
+    </div>
+    <div class="dots" data-for="op"></div>
+  </div>
+</section>
+
+<section class="sec" id="zespol" aria-labelledby="h-zespol">
+  <div class="wrap team">
+    <figure class="team-ph rv" style="margin:0">
+      <img src="img/biuro-19-800.webp" srcset="img/biuro-19-560.webp 560w, img/biuro-19-800.webp 800w, img/biuro-19-1200.webp 1200w" sizes="(max-width:899px) 100vw, 46vw" width="1200" height="800" alt="Zespół PROPSEO w biurze w Quorum Office Park we Wrocławiu" loading="lazy">
+      <figcaption>Zespół PROPSEO, Quorum Office Park we Wrocławiu</figcaption>
+    </figure>
+    <div class="rv">
+      <h2 id="h-zespol">Twój marketing prowadzą doświadczeni specjaliści</h2>
+      <p style="color:var(--mut)">Do zespołu dołączają wyłącznie osoby z co najmniej 5-letnim doświadczeniem. Analizują wyniki i decydują o działaniach z myślą o rozwoju Twojego biznesu.</p>
+      <ul class="prom">
+        <li><svg class="pmark" aria-hidden="true"><use href="#pm"/></svg>Plan na 12 miesięcy, a uzgodniony zakres staje się częścią umowy</li>
+        <li><svg class="pmark" aria-hidden="true"><use href="#pm"/></svg>Umowa na czas nieokreślony, bez kar i ukrytych kosztów</li>
+        <li><svg class="pmark" aria-hidden="true"><use href="#pm"/></svg>Powtarzalne zadania automatyzujemy, żeby więcej czasu poświęcić analizie</li>
+      </ul>
+      <ul class="names" aria-label="Wybrane osoby z zespołu">
+        <li><b>Michał Leszczyński</b> CEO</li>
+        <li><b>Sebastian Mętel</b> COO</li>
+        <li><b>Mateusz Morawski</b> Head of SEO</li>
+        <li><b>Marcin Góralski</b> Head of Sales</li>
+        <li><b>Sandra Salska</b> Senior SEO Specialist</li>
+        <li><b>Krzysztof Cieślak</b> Senior Google Ads Specialist</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="sec sec-k" id="kontakt" aria-labelledby="h-kt">
+  <div class="wrap kt">
+    <div class="rv">
+      <h2 id="h-kt">Porozmawiajmy o Twoich celach</h2>
+      <p style="color:#B9BBC9">Pierwsza rozmowa jest bezpłatna i niezobowiązująca. Nie potrzebujesz gotowego briefu, wystarczy kilka słów o firmie.</p>
+      <div class="kt-d">
+        <a href="tel:+48530514642"><small>Telefon</small><span>+48 530 514 642</span></a>
+        <a href="mailto:kontakt@propseo.pl"><small>E-mail</small><span>kontakt@propseo.pl</span></a>
+        <div><small>Biuro</small><span>Quorum Office Park, ul. gen. Władysława Sikorskiego 26, 53-659 Wrocław</span></div>
+      </div>
+    </div>
+    <form class="form rv" id="form" novalidate>
+      <h3>Bezpłatna konsultacja</h3>
+      <p>Odezwiemy się, żeby omówić pierwsze kroki.</p>
+      <div class="fg">
+        <label class="f">Imię i nazwisko<input name="imie" autocomplete="name" required></label>
+        <label class="f">Telefon<input name="tel" type="tel" autocomplete="tel" inputmode="tel" required></label>
+        <label class="f">Firmowy e-mail<input name="email" type="email" autocomplete="email" required></label>
+        <label class="f">Adres strony (opcjonalnie)<input name="www" type="url" inputmode="url" placeholder="np. twojafirma.pl"></label>
+        <fieldset class="chips">
+          <legend>O czym porozmawiamy?</legend>
+          <label><input type="checkbox" name="temat" value="seo"><span>SEO i AI Search</span></label>
+          <label><input type="checkbox" name="temat" value="ads"><span>Kampanie reklamowe</span></label>
+          <label><input type="checkbox" name="temat" value="ai"><span>Audyt widoczności w AI</span></label>
+          <label><input type="checkbox" name="temat" value="kons"><span>Konsultacja marketingowa</span></label>
+        </fieldset>
+        <label class="f full">Kilka słów o firmie (opcjonalnie)<textarea name="opis"></textarea></label>
+      </div>
+      <button class="btn btn-v" type="submit">Wyślij zgłoszenie<svg class="ar" aria-hidden="true"><use href="#ar"/></svg></button>
+      <p class="f-note">Administratorem danych jest PROPSEO sp. z o.o. Dane wykorzystamy wyłącznie do obsługi zgłoszenia.</p>
+      <p class="f-ok" id="fok" role="status">To podgląd strony - formularz zacznie wysyłać zgłoszenia na docelowej stronie.</p>
+    </form>
+  </div>
+</section>
+</main>
+
+<footer class="ft">
+  <div class="wrap">
+    <div class="ft-g">
+      <div>
+        <a class="logo" href="#" aria-label="PROPSEO"><svg viewBox="0 4 1653 214" aria-hidden="true"><use href="#logo"/></svg></a>
+        <p class="ft-firm">PROPSEO sp. z o.o.<br>ul. gen. Władysława Sikorskiego 26, 53-659 Wrocław<br>NIP 8992911512 · KRS 0000934189</p>
+      </div>
+      <div>
+        <h4>Usługi</h4>
+        <ul><li><a href="#uslugi">SEO i AI Search</a></li><li><a href="#uslugi">Google Ads</a></li><li><a href="#uslugi">Optymalizacja konwersji</a></li><li><a href="#uslugi">Strategia i doradztwo</a></li></ul>
+      </div>
+      <div>
+        <h4>PROPSEO</h4>
+        <ul><li><a href="#zespol">O nas</a></li><li><a href="#zespol">Zespół</a></li><li><a href="#kontakt">Kariera</a></li><li><a href="#kontakt">Program partnerski</a></li></ul>
+      </div>
+      <div>
+        <h4>Wiedza</h4>
+        <ul><li><a href="#ai-search">PROPSEO Labs</a></li><li><a href="#wyniki">Case study</a></li><li><a href="#kontakt">Blog</a></li><li><a href="#kontakt">Newsletter</a></li></ul>
+      </div>
+    </div>
+    <div class="ft-bot">
+      <span>© 2026 PROPSEO sp. z o.o. · <a href="#kontakt">Polityka prywatności</a></span>
+      <a class="wylinka-badge" href="https://wylinka.pl/?utm_source=propseo.pl&amp;utm_medium=stopka&amp;utm_campaign=wykonanie" rel="noopener" title="Strona wykonana przez Wylinka"><svg viewBox="0 0 64 64" aria-hidden="true" focusable="false" fill="currentColor"><path d="M9.8 22.8l-1.2-7.9 2.2-3.7 15.5 4.6-.5 1.5-7.2 5.5 4.7 15.6 5-15.6 7 0 4.1 12.7-4.2-.9-2.6 1.8-.8-2.2-5.3 15.6-4.3 0 .4 .2-2.1 2.8-1.3-1.1 1.1-1.4-3.1 .2-.1-1.7 2.2-.1-5.7-16.5-4.8 .6-.8 3.1 0 .5-.3 .5 .8 2.2-1.6 .5-.4-1.3-.8 1.6-1.5-.8 .8-1.6-1.4 .6-.6-1.6 2.3-.8 .2-.4 1.3-4.8 5.9-.8-2.4-6.9zM15.2 13.7l-.1-.4-.4 .8-.1 .8 .1 1 .1 .4 .3 .7 .3-.9 .1-.7 0-.8z"/><path class="wy-pod" d="M37.1 49.8l-4.5-13.3 2.6-1.8 4.2 .9 .9 2.8 3-9.7 0-.5 .1-.8 3.2-8.4 .5-1 .6-1 .9-1.1 1.3-1 1.1-.7 1.4-.5 1.4-.3 .7 0 .9 0 1.2 .3 1.4 .6 .8 .5 .7 .7 .6 .7 .5 .9 .3 .9 .1 .9 0 .8-.2 .9-.5 .9-.5 .6-.7 .5-.7 .3-.1-.1 0-.1 .5-.5 .3-.7 .2-.5 0-.6-.1-.6-.3-.7-.4-.5-.4-.4-.5-.3-.6-.3-.7 0-.7 .1-.6 .1-.5 .4-.5 .5-.3 .5-.2 .7-.1 1.5-1.4 5.1-.8 3.3-.3 .7-.5 .7-6 17.5 1.9 .1-.1 1.7-3.1-.2 1.1 1.4-1.3 1.1-2.1-2.8 .4-.2z"/><path class="wy-old" d="M40.8 50l.4-.2-4.1 0-4.2-12.5 2.5-1.7 4.3 .9 .6 1.9 .6-1.6 0-.3 2.4-7.8 0-.5 .1-.8 3.2-8.4 .4-.8 .6-.9 .9-1.2 .9-.9 1.3-.8 1.4-.6 1.2-.3 1.4-.1 1.3 .1 .6 .2 .8 .3 1.1 .6 .9 .7 .7 .9 .5 .9 .3 .9 .1 1.1-.1 .9-.3 .9-.4 .7-.6 .7-.6 .4-.6 .2-.1-.1 0-.1 .5-.5 .3-.7 .2-.5 0-.5-.1-.6-.2-.6-.3-.5-.4-.5-.5-.3-.6-.3-.7-.1-.6 0-.6 .1-.6 .3-.6 .5-.3 .4-.2 .5-.1 .5-.1 1.5-1.4 5.1-.8 3.3-.3 .7-.5 .7-6 17.5 1.9 .1-.1 1.7-3.1-.2 1.1 1.4-1.3 1.1zM49.6 17.1l.6 1.7-1.5 1.9 .4 .4 1.8-2.1-.7-2.1zM48.1 28.3l.5 1.8-1.7 1.8 .4 .4 1.9-2-.6-2.2zM37.9 41.7l1.7-1.5-.4-.4-1.7 1.4zM42.6 38.7l-1.5 2.8 1.1 2-1.3 2.6 .5 .2 1.5-2.8-1.1-2 1.4-2.5z"/></svg><span>wykonanie: <b>Wylinka</b></span></a>
+    </div>
+  </div>
+</footer>
+
+<div class="mbar" id="mbar">
+  <a class="btn btn-k" href="tel:+48530514642" aria-label="Zadzwoń"><svg class="tel" aria-hidden="true"><use href="#tel"/></svg></a>
+  <a class="btn btn-v" href="#kontakt">Bezpłatna konsultacja</a>
+</div>
+
+<script src="app.js" defer></script>
+</body>
+</html>
